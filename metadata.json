@@ -1,0 +1,6 @@
+{
+  "name": "Royal Spice - Luxury Fine Dining Restaurant",
+  "description": "Experience opulent Indian fine dining, signature imperial recipes, curated culinary masterclasses, table reservations, and bespoke dining.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+
+  --color-surface: #131313;
+  --color-surface-dim: #131313;
+  --color-surface-bright: #393939;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container: #201f1f;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #ddc0bd;
+  --color-primary: #ffb3ad;
+  --color-on-primary: #640b0f;
+  --color-primary-container: #7a1c1c;
+  --color-on-primary-container: #ff8981;
+  --color-secondary: #e9c349;
+  --color-on-secondary: #3c2f00;
+  --color-secondary-container: #af8d11;
+  --color-on-secondary-container: #342800;
+  --color-outline: #a58b88;
+  --color-outline-variant: #574240;
+}
+
+@layer base {
+  body {
+    background-color: #131313;
+    color: #e5e2e1;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+}
+
+.font-display-lg {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.font-headline-lg {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.75rem, 3.5vw, 2rem);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+.font-headline-md {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.font-headline-sm {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-weight: 500;
+}
+
+.font-body-lg {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.font-body-md {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+}
+
+.font-body-sm {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+}
+
+.font-label-md {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
